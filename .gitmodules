@@ -1,0 +1,35 @@
+[submodule "services/random-username-gen"]
+	path = services/random-username-gen
+	url = https://github.com/BusyBeavers/random-username-gen
+
+[submodule "services/buddha-quote-gen"]
+	path = services/buddha-quote-gen
+	url = https://github.com/BusyBeavers/buddha-quote-gen
+
+[submodule "services/joke-microservice"]
+	path = services/joke-microservice
+	url = https://github.com/BusyBeavers/joke-microservice
+
+[submodule "services/golf-api"]
+	path = services/golf-api
+	url = https://github.com/BusyBeavers/golf-api
+
+[submodule "services/email-verification"]
+	path = services/email-verification
+	url = https://github.com/BusyBeavers/email-verification
+
+[submodule "services/holiday-microservice"]
+	path = services/holiday-microservice
+	url = https://github.com/BusyBeavers/holiday-microservice
+
+[submodule "services/zip-code-microservice"]
+	path = services/zip-code-microservice
+	url = https://github.com/BusyBeavers/zip-code-microservice
+
+[submodule "services/email-sender"]
+	path = services/email-sender
+	url = https://github.com/BusyBeavers/email-sender
+
+[submodule "services/image-bg-removal"]
+	path = services/image-bg-removal
+	url = https://github.com/BusyBeavers/image-bg-removal
