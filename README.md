@@ -46,24 +46,49 @@ git clone --recurse-submodules https://github.com/SirMrTyler/MicroService-Umbrel
 
 ## Making Changes
 
-After cloning our Umbrella repo, simply do this in bash from the Umbrella's root dir:
+> **VERY IMPORTANT**: Make sure you cd INTO the directory you want to change. Otherwise you're changing the entire Umbrella repo.
+
+## After cloning our Umbrella repo, simply do this in bash from the Umbrella's root dir:
 
 ```bash
 cd services/desired-repo-dir
 git add file_name(s)
 ```
 
-or
+- Adds per file changes
+
+**OR**
 
 ```bash
+cd services/desired-repo-dir
 git add .
 ```
 
-to add all changes
+- Adds all changes
 
 ```bash
 git commit -m "What you did yuh dig"
 git push origin main
 ```
 
+---
+
+---
+
+Go back to Umbrella Repo
+
+```
+cd ../..
+git add services/<service-folder>
+git commit -m "chore: bump <service-name> submodule pointer"
+git push
+```
+
 ## Getting updates
+
+If you want to pull the newest submodule changes to your local folder simply use the following bash command:
+
+```bash
+git pull origin main
+git submodule update --init --recursive
+```
