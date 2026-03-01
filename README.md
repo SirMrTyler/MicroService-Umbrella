@@ -43,3 +43,27 @@ git clone --recurse-submodules https://github.com/SirMrTyler/MicroService-Umbrel
    - Or: GitHub CLI auth (`gh auth login`)
 
 ---
+
+## Making Changes
+
+After cloning our Umbrella repo, simply do this in bash from the Umbrella's root dir:
+
+```bash
+cd services/desired-repo-dir
+git add file_name(s)
+```
+
+or
+
+```bash
+git add .
+```
+
+to add all changes
+
+```bash
+git commit -m "What you did yuh dig"
+git push origin main
+```
+
+## Getting updates
